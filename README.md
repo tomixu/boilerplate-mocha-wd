@@ -1,10 +1,9 @@
-# Magellan / mocha / wd Cross-Browser Testing Boilerplate
+## Magellan / mocha / wd Cross-Browser Testing Boilerplate
 
 This is an example project for cross-browser testing using [Magellan](https://github.com/TestArmada/magellan) with [mocha](https://mochajs.org/) and [wd.js](https://github.com/admc/wd).
 
 
-Installation Example
-====================
+### Installation Example
 
 **1.** Clone `boilerplate-mocha` into an isolated place outside of your project:
 
