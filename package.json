@@ -1,0 +1,49 @@
+{
+  "name": "magellan-rowdy-mocha-boilerplate",
+  "version": "0.0.1",
+  "description": "Example project for cross-browser testing using Magellan with Mocha and wd.js",
+  "dependencies": {
+    "express": "4.12.3",
+    "lodash": "3.7.0"
+  },
+  "devDependencies": {
+    "testarmada-magellan": "^1.5.19",
+    "chai": "2.2.0",
+    "mocha": "2.2.4",
+    "phantomjs": "1.9.16",
+    "rowdy": "0.3.1",
+    "selenium-standalone": "4.4.0",
+    "sinon": "1.14.1",
+    "sinon-chai": "2.7.0",
+    "supertest": "0.15.0",
+    "wd": "0.3.11"
+  },
+  "scripts": {
+    "test": "magellan",
+    "start": "npm run-script build-all && gulp server:dev server:sources",
+    "install-selenium": "selenium-standalone install",
+    "postinstall": "npm run-script install-selenium"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TestArmada/mocha-boilerplate"
+  },
+  "keywords": [
+    "test",
+    "selenium",
+    "magellan",
+    "chai",
+    "mocha"
+  ],
+  "contributors": [
+    {
+      "name" : "Maciej Adwent",
+      "url" : "http://github.com/Maciek416"
+    },
+    {
+      "name": "Ryan Roemer",
+      "email": "ryan.roemer@formidablelabs.com"
+    }
+  ],
+  "license": "MIT"
+}
