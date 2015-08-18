@@ -5,7 +5,6 @@ var HOST = process.env.TEST_HOST || "http://127.0.0.1:" + PORT;
 // WD helpers.
 // https://github.com/admc/wd/blob/master/lib/special-keys.js
 var wd = require("wd");
-var ENTER_KEY = wd.SPECIAL_KEYS.Enter;
 
 // Rowdy helpers and adapter.
 var rowdy = require("rowdy");
