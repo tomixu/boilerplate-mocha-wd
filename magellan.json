@@ -4,7 +4,6 @@
   ],
   "mocha_opts": "test/func/mocha.opts",
   "framework": "rowdy-mocha",
-  "no_tunnels": true,
   "sauce": false,
   "browser": "phantomjs"
 }
