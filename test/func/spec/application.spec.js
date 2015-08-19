@@ -7,7 +7,8 @@ var HOST = process.env.TEST_HOST || "http://127.0.0.1:" + PORT;
 var wd = require("wd");
 
 // Rowdy helpers and adapter.
-var rowdy = require("rowdy");
+var config = require("../../../rowdy-config.js");
+var rowdy = require("rowdy")(config);
 var MochaAdapter = rowdy.adapters.mocha;
 var adapter = new MochaAdapter();
 var helpers = rowdy.helpers;
@@ -19,8 +20,8 @@ describe("func/application", function () {
   // --------------------------------------------------------------------------
   // Mocha
   // --------------------------------------------------------------------------
-  // Set a Mocha global timeout of 10 seconds to allow for test wonkiness.
-  this.timeout(10000);
+  // Set a Mocha global timeout of 10 seconds to allow for slow tests/tunnels
+  this.timeout(250000);
 
   // --------------------------------------------------------------------------
   // Selenium (WD.js/Rowdy) initialization
