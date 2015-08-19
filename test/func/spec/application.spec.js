@@ -73,8 +73,8 @@ describe("func/application", function () {
   // --------------------------------------------------------------------------
   // Suites
   // --------------------------------------------------------------------------
-  describe("camel", function () {
-    it("should convert complex input w/ extra spaces + click", function (done) {
+  describe("example test", function () {
+    it("should interact with input elements", function (done) {
       console.log(HOST)
       client
         // Get the web application page.
