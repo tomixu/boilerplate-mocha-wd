@@ -5,7 +5,8 @@
   "dependencies": {
     "express": "4.12.3",
     "guacamole": "^1.1.2",
-    "lodash": "3.7.0"
+    "lodash": "3.7.0",
+    "saucelabs": "^0.1.1"
   },
   "devDependencies": {
     "testarmada-magellan": "^1.6.1",
