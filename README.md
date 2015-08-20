@@ -5,20 +5,20 @@ This is an example project for cross-browser testing using [Magellan](https://gi
 
 ### Installation Example
 
-**1.** Clone `boilerplate-mocha` into an isolated place outside of your project:
+**1.** Clone `boilerplate-mocha-wd` into an isolated place outside of your project:
 
 ```console
 cd ~
-git clone git@github.com:TestArmada/boilerplate-mocha.git
+git clone git@github.com:TestArmada/boilerplate-mocha-wd.git
 ```
 
-**2.** Copy the contents of `boilerplate-mocha` into your project test folder, remove `.git`
+**2.** Copy the contents of `boilerplate-mocha-wd` into your project test folder, remove `.git`
 
 ```console
 cd ~/myproject
 mkdir automated-tests
 cd automated-tests
-cp -R ~/boilerplate ./
+cp -R ~/boilerplate-mocha-wd ./
 rm -rf .git
 ```
 
