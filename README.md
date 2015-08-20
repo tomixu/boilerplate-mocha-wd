@@ -51,7 +51,7 @@ For more information on how to run tests, including in different browsers, in pa
 
 **5.** Modify example tests and base class
 
-To start developing your own tests, take a look at `tests/func/spec`. For more information on how to write `mocha` and `wd` tests, check out the project pages for [mocha](https://mochajs.org/) and [wd.js](https://github.com/admc/wd).
+To start developing your own tests, take a look at the `spec` directory. For more information on how to write `mocha` and `wd` tests, check out the project pages for [mocha](https://mochajs.org/) and [wd.js](https://github.com/admc/wd).
 
 Notes
 =====
