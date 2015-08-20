@@ -1,8 +1,8 @@
 {
   "mocha_tests": [
-    "test/func/spec"
+    "spec"
   ],
-  "mocha_opts": "test/func/mocha.opts",
+  "mocha_opts": "spec/mocha.opts",
   "framework": "rowdy-mocha",
   "sauce": false,
   "browser": "phantomjs"
