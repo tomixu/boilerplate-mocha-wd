@@ -1,5 +1,5 @@
 {
-  "name": "magellan-rowdy-mocha-boilerplate",
+  "name": "magellan-boilerplate-mocha-wd",
   "version": "0.0.1",
   "description": "Example project for cross-browser testing using Magellan with Mocha and wd.js",
   "dependencies": {
