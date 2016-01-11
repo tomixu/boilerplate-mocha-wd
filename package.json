@@ -9,7 +9,8 @@
     "saucelabs": "^0.1.1"
   },
   "devDependencies": {
-    "testarmada-magellan": "^1.6.1",
+    "testarmada-magellan": "^5.0.0",
+    "testarmada-magellan-mocha-plugin": "^3.0.0",
     "chai": "2.2.0",
     "mocha": "2.2.4",
     "phantomjs": "1.9.16",
